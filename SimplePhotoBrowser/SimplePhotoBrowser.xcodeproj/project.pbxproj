@@ -22,6 +22,7 @@
 		18B98C221F0F8C56001AAAD5 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C1F1F0F8C56001AAAD5 /* 1.plist */; };
 		18B98C231F0F8C56001AAAD5 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C201F0F8C56001AAAD5 /* 2.plist */; };
 		18B98C241F0F8C56001AAAD5 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C211F0F8C56001AAAD5 /* 3.plist */; };
+		18D8381A1F0FC7DE001F7400 /* 图片查看器.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D838191F0FC7DE001F7400 /* 图片查看器.gif */; };
 		43E2CCA20ACC65583CCBCCD9 /* Pods_SimplePhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF9272E61426FCAA2C6E7E2 /* Pods_SimplePhotoBrowser.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		18B98C1F1F0F8C56001AAAD5 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
 		18B98C201F0F8C56001AAAD5 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
 		18B98C211F0F8C56001AAAD5 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		18D838191F0FC7DE001F7400 /* 图片查看器.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "图片查看器.gif"; sourceTree = "<group>"; };
 		335C175DD51D8E6753F01D73 /* Pods-SimplePhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		5EF9272E61426FCAA2C6E7E2 /* Pods_SimplePhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3C3DA9554CA08FD04ACDC1 /* Pods-SimplePhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		18893AB11F0F195800A5BC40 /* SimplePhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				18D838181F0FC7CA001F7400 /* ScreenShot */,
 				18B98C0B1F0F2024001AAAD5 /* Tools */,
 				18B98BF31F0F1BEA001AAAD5 /* Model */,
 				18B98BF41F0F1BEA001AAAD5 /* View */,
@@ -181,6 +184,14 @@
 			path = CoPhotoBrowser;
 			sourceTree = "<group>";
 		};
+		18D838181F0FC7CA001F7400 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				18D838191F0FC7DE001F7400 /* 图片查看器.gif */,
+			);
+			path = ScreenShot;
+			sourceTree = "<group>";
+		};
 		19EDE0F89A8690DB7267B7A2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +276,7 @@
 				18B98C0A1F0F1DF0001AAAD5 /* WaterFall.storyboard in Resources */,
 				18B98C221F0F8C56001AAAD5 /* 1.plist in Resources */,
 				18893ABF1F0F195900A5BC40 /* Assets.xcassets in Resources */,
+				18D8381A1F0FC7DE001F7400 /* 图片查看器.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
