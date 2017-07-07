@@ -6,5 +6,10 @@
 
 只要传递相应的图片url数组即可加载。 可参考Controller文件夹下的LDWaterFallCollectionViewController类collectionView:didSelectItemAtIndexPath方法实现。
 
+<pre><code>
 CoPhotoBrowserViewController *vc = [[CoPhotoBrowserViewController alloc] initWithUrls:photoArray.copy index:0];
 [self presentViewController:vc animated:NO completion:nil];
+</code></pre>
+
+
+![image](https://github.com/HONG321/SimplePhotoBrowser/blob/master/SimplePhotoBrowser/SimplePhotoBrowser/ScreenShot/图片查看器.gif)
