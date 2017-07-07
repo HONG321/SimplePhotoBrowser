@@ -1,0 +1,2 @@
+# SimplePhotoBrowser
+一款基于UICollectionViewController实现的图片查看器，集成方便。
