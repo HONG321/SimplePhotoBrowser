@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18893AB41F0F195800A5BC40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18893AB31F0F195800A5BC40 /* main.m */; };
+		18893AB71F0F195800A5BC40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18893AB61F0F195800A5BC40 /* AppDelegate.m */; };
+		18893ABF1F0F195900A5BC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18893ABE1F0F195900A5BC40 /* Assets.xcassets */; };
+		18893AC21F0F195900A5BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18893AC01F0F195900A5BC40 /* LaunchScreen.storyboard */; };
+		18B98BF71F0F1C0C001AAAD5 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98BF61F0F1C0C001AAAD5 /* Shop.m */; };
+		18B98BFF1F0F1D56001AAAD5 /* WaterfallFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98BFA1F0F1D56001AAAD5 /* WaterfallFooterView.m */; };
+		18B98C001F0F1D56001AAAD5 /* WaterfallImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98BFC1F0F1D56001AAAD5 /* WaterfallImageCell.m */; };
+		18B98C011F0F1D56001AAAD5 /* WaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98BFE1F0F1D56001AAAD5 /* WaterfallLayout.m */; };
+		18B98C081F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98C041F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.m */; };
+		18B98C0A1F0F1DF0001AAAD5 /* WaterFall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C071F0F1DF0001AAAD5 /* WaterFall.storyboard */; };
+		18B98C111F0F2052001AAAD5 /* CoPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98C0E1F0F2052001AAAD5 /* CoPhotoBrowserViewController.m */; };
+		18B98C121F0F2052001AAAD5 /* CoPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98C101F0F2052001AAAD5 /* CoPhotoViewCell.m */; };
+		18B98C221F0F8C56001AAAD5 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C1F1F0F8C56001AAAD5 /* 1.plist */; };
+		18B98C231F0F8C56001AAAD5 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C201F0F8C56001AAAD5 /* 2.plist */; };
+		18B98C241F0F8C56001AAAD5 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B98C211F0F8C56001AAAD5 /* 3.plist */; };
+		43E2CCA20ACC65583CCBCCD9 /* Pods_SimplePhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF9272E61426FCAA2C6E7E2 /* Pods_SimplePhotoBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18893AAF1F0F195800A5BC40 /* SimplePhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18893AB31F0F195800A5BC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18893AB51F0F195800A5BC40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18893AB61F0F195800A5BC40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18893ABE1F0F195900A5BC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18893AC11F0F195900A5BC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18893AC31F0F195900A5BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B98BF51F0F1C0C001AAAD5 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		18B98BF61F0F1C0C001AAAD5 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		18B98BF91F0F1D56001AAAD5 /* WaterfallFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallFooterView.h; sourceTree = "<group>"; };
+		18B98BFA1F0F1D56001AAAD5 /* WaterfallFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallFooterView.m; sourceTree = "<group>"; };
+		18B98BFB1F0F1D56001AAAD5 /* WaterfallImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallImageCell.h; sourceTree = "<group>"; };
+		18B98BFC1F0F1D56001AAAD5 /* WaterfallImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallImageCell.m; sourceTree = "<group>"; };
+		18B98BFD1F0F1D56001AAAD5 /* WaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallLayout.h; sourceTree = "<group>"; };
+		18B98BFE1F0F1D56001AAAD5 /* WaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallLayout.m; sourceTree = "<group>"; };
+		18B98C031F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDWaterFallCollectionViewController.h; sourceTree = "<group>"; };
+		18B98C041F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDWaterFallCollectionViewController.m; sourceTree = "<group>"; };
+		18B98C071F0F1DF0001AAAD5 /* WaterFall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WaterFall.storyboard; sourceTree = "<group>"; };
+		18B98C0D1F0F2052001AAAD5 /* CoPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		18B98C0E1F0F2052001AAAD5 /* CoPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		18B98C0F1F0F2052001AAAD5 /* CoPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoPhotoViewCell.h; sourceTree = "<group>"; };
+		18B98C101F0F2052001AAAD5 /* CoPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoPhotoViewCell.m; sourceTree = "<group>"; };
+		18B98C1F1F0F8C56001AAAD5 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		18B98C201F0F8C56001AAAD5 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		18B98C211F0F8C56001AAAD5 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		335C175DD51D8E6753F01D73 /* Pods-SimplePhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		5EF9272E61426FCAA2C6E7E2 /* Pods_SimplePhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3C3DA9554CA08FD04ACDC1 /* Pods-SimplePhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18893AAC1F0F195800A5BC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E2CCA20ACC65583CCBCCD9 /* Pods_SimplePhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18893AA61F0F195800A5BC40 = {
+			isa = PBXGroup;
+			children = (
+				18893AB11F0F195800A5BC40 /* SimplePhotoBrowser */,
+				18893AB01F0F195800A5BC40 /* Products */,
+				19EDE0F89A8690DB7267B7A2 /* Pods */,
+				96CE9FFFB952E504F1F82E01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18893AB01F0F195800A5BC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18893AAF1F0F195800A5BC40 /* SimplePhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18893AB11F0F195800A5BC40 /* SimplePhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C0B1F0F2024001AAAD5 /* Tools */,
+				18B98BF31F0F1BEA001AAAD5 /* Model */,
+				18B98BF41F0F1BEA001AAAD5 /* View */,
+				18B98BF21F0F1BE1001AAAD5 /* Controller */,
+				18893AB51F0F195800A5BC40 /* AppDelegate.h */,
+				18893AB61F0F195800A5BC40 /* AppDelegate.m */,
+				18893ABE1F0F195900A5BC40 /* Assets.xcassets */,
+				18893AC01F0F195900A5BC40 /* LaunchScreen.storyboard */,
+				18893AC31F0F195900A5BC40 /* Info.plist */,
+				18893AB21F0F195800A5BC40 /* Supporting Files */,
+			);
+			path = SimplePhotoBrowser;
+			sourceTree = "<group>";
+		};
+		18893AB21F0F195800A5BC40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C1F1F0F8C56001AAAD5 /* 1.plist */,
+				18B98C201F0F8C56001AAAD5 /* 2.plist */,
+				18B98C211F0F8C56001AAAD5 /* 3.plist */,
+				18893AB31F0F195800A5BC40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B98BF21F0F1BE1001AAAD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C021F0F1DF0001AAAD5 /* WaterFall */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18B98BF31F0F1BEA001AAAD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B98BF51F0F1C0C001AAAD5 /* Shop.h */,
+				18B98BF61F0F1C0C001AAAD5 /* Shop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B98BF41F0F1BEA001AAAD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B98BF81F0F1D56001AAAD5 /* WaterFall */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B98BF81F0F1D56001AAAD5 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				18B98BF91F0F1D56001AAAD5 /* WaterfallFooterView.h */,
+				18B98BFA1F0F1D56001AAAD5 /* WaterfallFooterView.m */,
+				18B98BFB1F0F1D56001AAAD5 /* WaterfallImageCell.h */,
+				18B98BFC1F0F1D56001AAAD5 /* WaterfallImageCell.m */,
+				18B98BFD1F0F1D56001AAAD5 /* WaterfallLayout.h */,
+				18B98BFE1F0F1D56001AAAD5 /* WaterfallLayout.m */,
+			);
+			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		18B98C021F0F1DF0001AAAD5 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C031F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.h */,
+				18B98C041F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.m */,
+				18B98C071F0F1DF0001AAAD5 /* WaterFall.storyboard */,
+			);
+			path = WaterFall;
+			sourceTree = "<group>";
+		};
+		18B98C0B1F0F2024001AAAD5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C0C1F0F2052001AAAD5 /* CoPhotoBrowser */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18B98C0C1F0F2052001AAAD5 /* CoPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				18B98C0D1F0F2052001AAAD5 /* CoPhotoBrowserViewController.h */,
+				18B98C0E1F0F2052001AAAD5 /* CoPhotoBrowserViewController.m */,
+				18B98C0F1F0F2052001AAAD5 /* CoPhotoViewCell.h */,
+				18B98C101F0F2052001AAAD5 /* CoPhotoViewCell.m */,
+			);
+			path = CoPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		19EDE0F89A8690DB7267B7A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C3C3DA9554CA08FD04ACDC1 /* Pods-SimplePhotoBrowser.debug.xcconfig */,
+				335C175DD51D8E6753F01D73 /* Pods-SimplePhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96CE9FFFB952E504F1F82E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF9272E61426FCAA2C6E7E2 /* Pods_SimplePhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18893AAE1F0F195800A5BC40 /* SimplePhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18893AC61F0F195900A5BC40 /* Build configuration list for PBXNativeTarget "SimplePhotoBrowser" */;
+			buildPhases = (
+				A79D3EE4BE3C4DC980650E24 /* [CP] Check Pods Manifest.lock */,
+				18893AAB1F0F195800A5BC40 /* Sources */,
+				18893AAC1F0F195800A5BC40 /* Frameworks */,
+				18893AAD1F0F195800A5BC40 /* Resources */,
+				DDF817A425C69E11B557C53A /* [CP] Embed Pods Frameworks */,
+				231EB4CB8259BB1B6A0FD2BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePhotoBrowser;
+			productName = SimplePhotoBrowser;
+			productReference = 18893AAF1F0F195800A5BC40 /* SimplePhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18893AA71F0F195800A5BC40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HONG;
+				TargetAttributes = {
+					18893AAE1F0F195800A5BC40 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18893AAA1F0F195800A5BC40 /* Build configuration list for PBXProject "SimplePhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18893AA61F0F195800A5BC40;
+			productRefGroup = 18893AB01F0F195800A5BC40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18893AAE1F0F195800A5BC40 /* SimplePhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18893AAD1F0F195800A5BC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B98C241F0F8C56001AAAD5 /* 3.plist in Resources */,
+				18893AC21F0F195900A5BC40 /* LaunchScreen.storyboard in Resources */,
+				18B98C231F0F8C56001AAAD5 /* 2.plist in Resources */,
+				18B98C0A1F0F1DF0001AAAD5 /* WaterFall.storyboard in Resources */,
+				18B98C221F0F8C56001AAAD5 /* 1.plist in Resources */,
+				18893ABF1F0F195900A5BC40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231EB4CB8259BB1B6A0FD2BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79D3EE4BE3C4DC980650E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF817A425C69E11B557C53A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplePhotoBrowser/Pods-SimplePhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18893AAB1F0F195800A5BC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18893AB71F0F195800A5BC40 /* AppDelegate.m in Sources */,
+				18B98C001F0F1D56001AAAD5 /* WaterfallImageCell.m in Sources */,
+				18B98BFF1F0F1D56001AAAD5 /* WaterfallFooterView.m in Sources */,
+				18B98C011F0F1D56001AAAD5 /* WaterfallLayout.m in Sources */,
+				18B98C081F0F1DF0001AAAD5 /* LDWaterFallCollectionViewController.m in Sources */,
+				18B98C121F0F2052001AAAD5 /* CoPhotoViewCell.m in Sources */,
+				18893AB41F0F195800A5BC40 /* main.m in Sources */,
+				18B98C111F0F2052001AAAD5 /* CoPhotoBrowserViewController.m in Sources */,
+				18B98BF71F0F1C0C001AAAD5 /* Shop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18893AC01F0F195900A5BC40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18893AC11F0F195900A5BC40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18893AC41F0F195900A5BC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18893AC51F0F195900A5BC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18893AC71F0F195900A5BC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3C3DA9554CA08FD04ACDC1 /* Pods-SimplePhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplePhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.cn.SimplePhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18893AC81F0F195900A5BC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335C175DD51D8E6753F01D73 /* Pods-SimplePhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplePhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.cn.SimplePhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18893AAA1F0F195800A5BC40 /* Build configuration list for PBXProject "SimplePhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18893AC41F0F195900A5BC40 /* Debug */,
+				18893AC51F0F195900A5BC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18893AC61F0F195900A5BC40 /* Build configuration list for PBXNativeTarget "SimplePhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18893AC71F0F195900A5BC40 /* Debug */,
+				18893AC81F0F195900A5BC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18893AA71F0F195800A5BC40 /* Project object */;
+}
